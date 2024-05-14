@@ -1,7 +1,6 @@
-# set OPENAI_API_KEY='sk-proj-6AVl81YNIHWjiiiukcANT3BlbkFJwPa53dde4HNTabwwRBdL'
 
 import openai
-openai.api_key = 'sk-proj-uq2Nvp1iBYVCmrRx0dO5T3BlbkFJ8y2f9pUTqU2ypdRTChjf'
+openai.api_key = "OPENAI_API_KEY"
 
 def get_recommendation(user_input):
     prompt =  """
